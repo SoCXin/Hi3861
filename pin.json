@@ -1,0 +1,17 @@
+{
+    "type":"MCU",
+    "name":"MM32F0010",
+    "package":["TSSOP20","QFN20"],
+    "QFN20": {
+        "name":"MM32F0010A1N",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "GPIO":18
+    },
+    "TSSOP20": {
+        "name":"MM32F0010A1T",
+        "peripheral": ["ADC","TIM","UART1","UART2","I2C","SPI","PWM"],
+        "UART1":[16,3,0],
+        "GPIO":18
+    },
+    "version":"1.0.0"
+}
