@@ -1,0 +1,73 @@
+{
+    "type":"MCU",
+    "name":"MM32F0010",
+    "series":["MM32F0010A1N","MM32F0010A1T"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "package":["TSSOP20","QFN20"],
+    "Core": {
+        "num": 1,
+        "architecture":"Cortex M0",
+        "Freq":48
+    },
+    "MM32F0010A1N": {
+        "SRAM":2000,
+        "Flash":16000,
+        "package":"QFN20",
+        "peripheral": ["ADC","TIM","PWM"],
+        "GPIO":18,
+        "price":1.8
+    },
+    "MM32F0010A1T": {
+        "SRAM":2000,
+        "Flash":16000,
+        "package":"TSSOP20",
+        "peripheral": ["ADC","TIM","PWM"],
+        "GPIO":18,
+        "price":1.8
+    },
+    "UART": {
+        "num": 2,
+        "ISO7816":true,
+        "buad": [9600,115200]
+    },
+    "ADC": {
+        "num": 1,
+        "channel": 8,
+        "resolution": 12,
+        "rate": 1024
+    },
+    "TIM": {
+        "resolution":[16,16,32],
+        "rate": 1024
+    },
+    "RCC": {
+        "HSI": 16384,
+        "LSI": 32,
+        "HSE": [1024,20480],
+        "PLL": [32768,49152],
+        "accuracy": 0.02,
+        "rate": 1024
+    },
+    "PWR": {
+        "VDD": [2000,5500],
+        "IDD": [2.21,14.31],
+        "Imax": 120
+    },
+    "EMC": {
+        "EFT": 2000,
+        "ESD": 4000
+    },
+    "upload": {
+        "ISP": true,
+        "IAP": true,
+        "SWD": true,
+        "speed": 115200
+    },
+    "manufacturer": {
+        "vendor":"MindMotion",
+        "homepage": "http://www.mindmotion.com.cn"
+    },
+    "url":"http://www.SoC.xin/MM32F0010",
+    "repo":"https://github.com/SoCXin/MM32F0010",
+    "version":"1.0.0"
+}
