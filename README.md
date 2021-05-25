@@ -1,31 +1,30 @@
-﻿# [MM32F0010](https://github.com/SoCXin/MM32F0010)
+﻿# [Hi3861](https://github.com/SoCXin/Hi3861)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[MindMotion](http://www.mindmotion.com.cn)
-#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
-#### [Level](https://github.com/SoCXin/Level)：48MHz
+[![Build Status](https://github.com/SoCXin/Hi3861/workflows/src/badge.svg)](https://github.com/SoCXin/Hi3861/actions/workflows/src.yml)
 
-[MM32F0010](https://github.com/SoCXin/MM32F0010)
+* [hisilicon](https://www.hisilicon.com)：[Cortex-M4](https://github.com/SoCXin/Cortex)
+* [L4R5](https://github.com/SoCXin/Level)：160 MHz * 1.25 DMIPS/MHz (680CoreMark)
 
-[![sites](docs/MM32F0010.png)](http://www.mindmotion.com.cn/product.aspx)
+## [简介](https://github.com/SoCXin/Hi3861/wiki)
 
-#### 关键特性
+[Hi3861](https://github.com/SoCXin/Hi3861) 是一款高度集成的2.4GHz WLAN SoC芯片，集成IEEE 802.11b/g/n基带和RF（Radio Frequency）电路。支持OpenHarmony，并配套提供开放、易用的开发和调试运行环境。
 
-* PIN2PIN兼容替换003
+[![sites](docs/Hi3861.png)](https://www.hisilicon.com/cn/products/smart-iot/ShortRangeWirelessIOT/Hi3861V100)
 
-### [资源收录](https://github.com/SoCXin)
+### 关键特性
 
-* [参考文档](docs/)
-* [参考资源](src/)
-* [参考工程](project/)
+* WiFi 72.2Mbps@HT20
+* 352KB RAM
+
+#### 封装规格
+
+* QFN32 (5×5mm)
+
 
 ### [选型建议](https://github.com/SoCXin)
 
-[MM32F0010](https://github.com/SoCXin/MM32F0010)
+[Hi3861](https://github.com/SoCXin/Hi3861)
 
-* [MM32F031](https://github.com/SoCXin/MM32F031)
-* [MM32F013](https://github.com/SoCXin/MM32F013)
-* [MM32F003](https://github.com/SoCXin/MM32F003)
-
-###  [www.SoC.xin(芯)](http://www.SoC.Xin)
+### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
