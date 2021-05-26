@@ -39,3 +39,5 @@ documents
 Readme.txt
 *.uvgu*
 *.uvopt*
+fp-lib-table
+fp-info-cache
