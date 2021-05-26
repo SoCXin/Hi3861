@@ -4,7 +4,7 @@
 
 [![Build Status](https://github.com/SoCXin/Hi3861/workflows/src/badge.svg)](https://github.com/SoCXin/Hi3861/actions/workflows/src.yml)
 
-* [hisilicon](https://www.hisilicon.com)：[Cortex-M4](https://github.com/SoCXin/Cortex)
+* [hisilicon](https://www.hisilicon.com)：[RISC](https://github.com/SoCXin)
 * [L4R5](https://github.com/SoCXin/Level)：160 MHz * 1.25 DMIPS/MHz (680CoreMark)
 
 ## [简介](https://github.com/SoCXin/Hi3861/wiki)

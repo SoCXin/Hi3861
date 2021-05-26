@@ -3,10 +3,10 @@
     "name":"Hi3861",
     "Freq":"200MHz",
     "Core":"Cortex-M4",
-    "title": "GigaDevice Hi3861 MCU",
-    "description":"GigaDevice Cortex-M4 MCU",
+    "title": "Hisilicon Hi3861 MCU",
+    "description":"Hisilicon Cortex-M4 MCU",
     "manufacturer": {
-        "vendor":"gigadevice",
+        "vendor":"Hisilicon",
         "homepage":"https://www.gigadevice.com/zh-hans/products/microcontrollers/gd32/arm-cortex-m4/?fwp_processor_type=cortex-m4&fwp_microcontrollers_product_series=Hi3861"
     },
     "repository": {
@@ -14,8 +14,8 @@
         "url": "https://github.com/SoCXin/Hi3861.git"
     },
     "version":"1.0.0",
-    "series":["Hi3861KC","Hi3861JC","Hi3861KE","Hi3861PE"],
-    "package":["UFBGA100","LQFP100","LQFP64","LQFP48","QFN60","QFN48"],
+    "series":["Hi3861V100"],
+    "package":["QFN32"],
     "peripheral": ["ADC","UART","I2C","SPI","PWM"],
     "keywords": [
         "AES","DES","3DES","SM1","SM3","SM4","SM7","MD5","SHA1","SHA224","SHA256","CRC","TRANG",
